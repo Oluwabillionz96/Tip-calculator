@@ -31,8 +31,8 @@ h1{
 
 .container{
     background-color: #fff;
-    height: 50%;
-    width: min(75%, 700px);
+    height: min(40%, 300px);
+    width: min(75%, 1000px);
     border-radius: 20px;
     display: flex;
     gap: 3rem;
