@@ -1,0 +1,73 @@
+.calculated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculated > * {
+  flex: 1;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  flex: 2;
+}
+
+.calc > * {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.price {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #22c3a9;
+}
+
+.text{
+    color: #fff;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.small{
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.btn{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.reset{
+    width: 90%;
+    height: 40%;
+    background-color: #0D686D;
+    border: none;
+    color:  #00474B;
+}
+
+.reset:hover{
+    background-color: #9FE8DF;
+    font-weight: 700;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+  .price{
+    font-size: 1.5rem;
+  }
+}
